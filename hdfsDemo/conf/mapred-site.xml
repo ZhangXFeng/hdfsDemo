@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+    <property>
+        <name>mapreduce.job.max.split.locations</name>
+        <value>50</value>
+    </property>
+    <property>
+        <name>yarn.app.mapreduce.am.command-opts</name>
+        <value>-agentpath:/usr/lib/transwarp-manager/agent/lib/native/libagent.so -Xmx2048m</value>
+    </property>
+    <property>
+        <name>mapreduce.jobhistory.address</name>
+        <value>tdh3:10020</value>
+    </property>
+    <property>
+        <name>mapreduce.framework.name</name>
+        <value>yarn</value>
+    </property>
+    <property>
+        <name>raid.distraid.max.files</name>
+        <value>300</value>
+    </property>
+    <property>
+        <name>yarn.app.mapreduce.am.staging-dir</name>
+        <value>/yarn1/user</value>
+    </property>
+    <property>
+        <name>mapred.child.java.opts</name>
+        <value>-agentpath:/usr/lib/transwarp-manager/agent/lib/native/libagent.so -Xmx2048m</value>
+    </property>
+    <property>
+        <name>raidnode.files.fix.per.job</name>
+        <value>500</value>
+    </property>
+    <property>
+        <name>mapreduce.job.maps</name>
+        <value>1</value>
+    </property>
+    <property>
+        <name>mapreduce.job.reduce.slowstart.completedmaps</name>
+        <value>1</value>
+    </property>
+    <property>
+        <name>mapreduce.jobhistory.webapp.address</name>
+        <value>tdh3:19888</value>
+    </property>
+    <property>
+        <name>mapreduce.shuffle.port</name>
+        <value>13562</value>
+    </property>
+    <property>
+        <name>raid.distraid.max.jobs</name>
+        <value>10</value>
+    </property>
+</configuration>
